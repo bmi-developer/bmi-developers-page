@@ -1,0 +1,6 @@
+{
+  "name": "BMI Developers",
+  "description": "Fábrica de software sob medida, modernização de sistemas legados, machine learning, integrações com LLMs e automação de processos com agentes de IA da BMI Developers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
