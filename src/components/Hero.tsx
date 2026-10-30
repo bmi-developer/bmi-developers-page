@@ -263,50 +263,10 @@ export default function Hero({ onScrollTo, lang, t, onOpenWhatsApp }: HeroProps)
         </div>
       </div>
 
-      {/* Full-height Vertical Showcase for Identidade Oficial with Contained Horizontal Width */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7, delay: 0.32 }}
-        className="w-full min-h-screen min-h-[100dvh] flex flex-col justify-center items-center bg-[#07080c] border-y border-neutral-800/80 py-8 md:py-12 mt-14 mb-14 relative overflow-hidden text-center"
-      >
-        {/* Subtle ambient light matching the deep dark image tones */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0f131c]/70 via-[#07080c] to-[#040507] pointer-events-none" />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-6xl h-44 bg-neutral-800/20 rounded-full blur-3xl pointer-events-none" />
-        
-        <div className="max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8 relative flex-1 flex flex-col justify-center">
-          <div className="relative rounded-2xl sm:rounded-[28px] overflow-hidden border border-neutral-800/70 bg-[#07080c] shadow-2xl group flex flex-col justify-center h-[72vh] sm:h-[78vh] md:h-[82vh] max-h-[860px]">
-            <img 
-              src="/assets/aistudio/m4_d2b7c0c1.png" 
-              alt="BMI Developers - Arquitetura de Software e IA" 
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.01]"
-            />
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#07080c] via-[#07080c]/85 to-transparent p-5 sm:p-7 md:p-8 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-              <div className="text-left">
-                <span className="text-[10px] sm:text-[11px] font-mono uppercase tracking-widest text-emerald-400 font-bold block mb-1">
-                  {lang === 'pt' ? 'Identidade Oficial' : lang === 'es' ? 'Identidad Oficial' : 'Official Identity'}
-                </span>
-                <p className="text-xs sm:text-sm md:text-base font-medium text-neutral-200 max-w-xl leading-relaxed">
-                  {lang === 'pt' 
-                    ? 'Engenharia de precisão, software factory e IA para empresas de alto impacto.' 
-                    : lang === 'es' 
-                    ? 'Ingeniería de software de precisión, fábrica de software e IA.' 
-                    : 'Precision software engineering, custom factory & AI.'}
-                </p>
-              </div>
-              <div className="flex items-center gap-2 shrink-0">
-                <span className="px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-xs font-mono text-white border border-white/20">
-                  BMI.NET.BR
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </motion.div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* 2. THREE MAJESTIC DEVICE OBJECTS STANDING SIDE-BY-SIDE (APPLE POSTER ALIGNMENT) */}
-        <div className="mt-4 md:mt-6 max-w-5xl mx-auto">
+        <div className="mt-10 md:mt-14 max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 px-4 items-stretch select-none text-left">
             
             {/* DEVICE 1: Deep Obsidian Indigo (Left Side - Angled Aesthetic) */}
